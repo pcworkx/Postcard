@@ -118,6 +118,15 @@
                                     <rect key="frame" x="24" y="77" width="353" height="60"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlI-L1-M7a">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="24" y="167" width="218" height="37"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -128,6 +137,7 @@
                                 <exclude reference="mRj-Dg-rOS"/>
                                 <exclude reference="iaY-Cj-ffG"/>
                                 <exclude reference="T0D-cw-EYF"/>
+                                <exclude reference="rlI-L1-M7a"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -138,6 +148,7 @@
                                 <include reference="mRj-Dg-rOS"/>
                                 <include reference="iaY-Cj-ffG"/>
                                 <include reference="T0D-cw-EYF"/>
+                                <include reference="rlI-L1-M7a"/>
                             </mask>
                         </variation>
                     </view>
@@ -145,6 +156,7 @@
                         <outlet property="enterMessageTextField" destination="579-NN-TPs" id="Obt-gq-nO0"/>
                         <outlet property="enterNameTextField" destination="TRm-4V-oCo" id="66T-4e-7rH"/>
                         <outlet property="messageLabel" destination="T0D-cw-EYF" id="8Ea-Kp-lcg"/>
+                        <outlet property="nameLabel" destination="rlI-L1-M7a" id="7ws-P3-Oh9"/>
                         <outlet property="sendMailButton" destination="iaY-Cj-ffG" id="vO7-bh-K6A"/>
                     </connections>
                 </viewController>
